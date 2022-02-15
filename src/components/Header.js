@@ -10,9 +10,9 @@ import { RiInstagramFill, RiMouseFill } from "react-icons/ri";
 export default function Header() {
   return (
     <div className="flex relative">
-      <div className="w-[537px] h-[609px] sm:h-[909px] bg-[#FFFAD0]  "></div>
+      <div className="w-[537px] h-[609px] sm:h-[909px] bg-[#FFFAD0] hidden md:block "></div>
 
-      <div className="absolute left-[32px] sm:left-[83px] top-[116px] sm:top-[226px] space-y-6 z-50">
+      <div className="absolute left-[32px] md:left-[83px] top-[116px] sm:top-[226px] space-y-6 z-50">
         <span className="text-[18px] uppercase font-bold text-[#00A79D] pb-2 border-b-2 border-[#00A79D]">
           Men's Shoes
         </span>

@@ -34,7 +34,7 @@ export default function Navbar() {
           </span>
         </div>
       </div>
-      <div className="w-[94px] h-full bg-[#FFC700] flex justify-center items-center">
+      <div className="sm:w-[94px] h-full bg-[#FFC700] flex justify-center items-center">
         <MenuAlt1Icon className="w-6 h-6 text-[#1F170A] rotate-180 cursor-pointer " />
       </div>
     </nav>

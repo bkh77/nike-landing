@@ -6,22 +6,23 @@ import shoe8 from "../img/shoe-8.png";
 
 export default function Features() {
   return (
-    <div className="flex sm:flex-row flex-col  relative">
-      <div className="sm:w-[526px] sm:h-[970px] w-full h-[250px]">
+    <div className="flex sm:flex-row flex-col relative">
+      <div className="sm:w-[526px] sm:h-[970px] w-full h-[250px] hidden md:block">
         <img
           className="w-full h-full object-cover"
           src={bgFeatures}
           alt="bg-features"
         />
-        <img
-          className="w-[750px] rotate-[32.6deg] absolute left-4 sm:-left-20 top-6 sm:top-[35%]"
-          src={shoe8}
-          alt="shoe-8"
-        />
-        <div className="shoe-shadow absolute bottom-24 left-0 hidden sm:block"></div>
+        <div className="shoe-shadow absolute bottom-24 left-0 hidden md:block"></div>
       </div>
 
-      <div className=" w-full sm:w-[850px] h-[970]  sm:bg-features p-[30px] sm:p-[160px]  space-y-8">
+      <img
+        className="md:w-[750px] w-full rotate-[32.6deg] absolute left-4 sm:-left-20 top-[35%] opacity-50 lg:opacity-100 lg:z-0 -z-10"
+        src={shoe8}
+        alt="shoe-8"
+      />
+
+      <div className=" w-full sm:w-[850px] h-[970]  sm:bg-features p-[30px] md:p-[160px]  space-y-8">
         <span className="uppercase text-[20px] font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#0047FF] to-[#EC00E2]">
           Features
         </span>
@@ -47,7 +48,7 @@ export default function Features() {
           <div className={`w-[21px] h-[21px] bg-[#5ACEFF] rounded-full`}></div>
         </div>
 
-        <div className="w-[450px] my-2 border-b-[1px] border-[rgba(62,62,62,0.2)]"></div>
+        <div className="w-full my-2 border-b-[1px] border-[rgba(62,62,62,0.2)]"></div>
 
         <div className="flex items-center sm:space-x-4 space-x-1 ">
           <p className="sm:text-[18px] text-[14px] text-[#1F170A] font-semibold mr-2">

@@ -7,7 +7,7 @@ import { RiInstagramFill } from "react-icons/ri";
 
 export default function Footer() {
   return (
-    <div className=" lg:h-[419px] bg-[#02083C] p-[78px] text-white/75">
+    <div className=" lg:h-[419px] bg-[#02083C] p-[30px] md:p-[78px] text-white/75">
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4 place-items-center">
         <div className="relative space-y-8">
           <img
