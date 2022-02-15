@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "name": "Nike Leron X1",
+    "bgColor": "#E0E1E5",
+    "price": "$75.00",
+    "img": "/leron1.png"
+  },
+  {
+    "id": "2",
+    "name": "Nike Shoes 19 ",
+    "bgColor": "#FFD0C3",
+    "price": "$75.00",
+    "img": "/leron2.png"
+  },
+  {
+    "id": "3",
+    "name": "Nike Leron X1",
+    "bgColor": "#E0E1E5",
+    "price": "$75.00",
+    "img": "/leron3.png"
+  },
+  {
+    "id": "4",
+    "name": "Nike Leron X1",
+    "bgColor": "#E0E1E5",
+    "price": "$75.00",
+    "img": "/leron4.png"
+  }
+]
